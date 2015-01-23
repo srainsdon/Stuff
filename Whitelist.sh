@@ -1,5 +1,5 @@
 #!/bin/sh -
-LIST=/root/allowed-domains.txt
+LIST=allowed-domains.txt
 
 iptables-restore <<'END'
 *filter
